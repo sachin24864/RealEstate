@@ -45,7 +45,7 @@ function Navbar() {
 
           <div className="relative" ref={dropdownRef}>
             <button
-              className="focus:outline-none flex items-center gap-1"
+              className="focus:outline-none flex items-center gap-1 hover:cursor-pointer"
               onClick={() => setIsDropdownOpen((prev) => !prev)}
             >
               Properties ▾

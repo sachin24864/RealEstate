@@ -18,12 +18,12 @@ function About() {
           Our mission is to connect people with homes that match their dreams.
           With a user-friendly platform and expert guidance, we make buying,
           selling, and renting properties easier than ever.
-          We’re not just a real estate company—we’re a movement toward smarter,
+          We're not just a real estate company—we're a movement toward smarter,
           more transparent living. At FutureHomes, we believe that finding the perfect property should be intuitive, inspiring, and stress-free. 
           Our platform blends cutting-edge technology with human insight, offering verified listings, 
           immersive virtual tours, and personalized recommendations that adapt to your lifestyle. 
           Whether you're buying your first home, investing in commercial space, or exploring new launches, 
-          we’re here to guide you with clarity and confidence. Our team is driven by innovation, backed by data, 
+          we're here to guide you with clarity and confidence. Our team is driven by innovation, backed by data, 
           and committed to helping you unlock the future of real estate—one property at a time.
         </p>
         <button onClick={toggleText} className="mt-2 px-4 py-2 bg-cyan-700 text-white rounded-md font-semibold hover:underline">

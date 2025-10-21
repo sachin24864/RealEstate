@@ -2,17 +2,17 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import About from './components/about'
+import About from './pages/About'
 import Promises from './components/Promises'
-import Choose from './components/Choose'
+import Choose from './pages/Choose'
 import Project from './components/Project';
 import Testimonial from './components/Testimonial';
-import Contact from './components/Contact';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import NumberSpeak from './components/NumberSpeak';
 import Developers from './components/Developers';
 
-function App() {
+export function Router() {
   return (
     <>
       <Navbar />
@@ -38,4 +38,4 @@ function App() {
   )
 }
 
-export default App
+export default Router;
